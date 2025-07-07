@@ -6,6 +6,10 @@ from src.config import Config
 from src.data_loader import DataLoader
 from src.model import ParkingModel
 import os
+from flask import Flask
+
+
+app = Flask(__name__)
 
 def define_parking_spots(frame):
     spots = {}
@@ -90,4 +94,4 @@ def main():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    main()
+    app.run()
