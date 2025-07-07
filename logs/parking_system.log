@@ -21574,3 +21574,5 @@
 2025-06-24 13:27:23,309 - ERROR - Frame processing error: 
 2025-06-24 13:27:23,488 - ERROR - Frame processing error: 
 2025-06-24 13:27:23,766 - ERROR - Frame processing error: 
+2025-07-07 15:34:01,166 - INFO - Vehicle detection model initialized successfully
+2025-07-07 15:34:05,559 - INFO - OCR initialized successfully
